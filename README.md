@@ -56,10 +56,9 @@ Horiseon homepage code refactor. Updates to semantic mark-up for SEO and accessi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website.jpg?raw=true)
+![https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website.jpg?raw=true)
 
 **Horiseon - SEO and Web Marketing Expert Website - requires updates to the to the structure of the HTML elements and semantic HTML mark up, Improved logical structure of CSS styling elements. Accessibility considerations including image alt tag attributes and sequential header ordering**
-
 
 
 ### Built With
