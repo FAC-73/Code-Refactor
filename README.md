@@ -77,7 +77,7 @@ If you want to switch to a more accessible dark mode option you can comment out 
 
 2. Comment this link out
    ```
-   link rel="stylesheet" href="./assets/css/style.css
+   link rel="stylesheet" href="./assets/css/style.css"
    ```
 
 3. Switch out the assets in the aside section for lighter icons. Add '_light' in the file name extension
