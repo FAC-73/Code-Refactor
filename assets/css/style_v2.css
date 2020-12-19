@@ -178,17 +178,17 @@ aside section img {
 
 /* FOOTER */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
-.footer p {
+footer p {
     color: #ADADAD;
 }
 
-.footer h3 {
+footer h3 {
     color: white;
     font-weight: 500;
     letter-spacing: -0.5px;
