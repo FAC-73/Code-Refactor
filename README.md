@@ -29,8 +29,6 @@ Horiseon homepage code refactor. Updates to semantic mark-up for SEO and accessi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website.jpg?raw=true)
-
 ![Website screenshot](https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website.jpg?raw=true "Horiseon Website")
 
 **Horiseon - SEO and Web Marketing Expert Website - requires updates to the to the structure of the HTML elements and semantic HTML mark up, Improved logical structure of CSS styling elements. Accessibility considerations including image alt tag attributes and sequential header ordering**
@@ -71,22 +69,24 @@ HTML & CSS is structured using semantic HTML where possible. For accessibility a
 #### Dark Mode stylesheet
 If you want to switch to a more accessible dark mode option you can comment out the first style sheet and use the style_v2.css 
 
-```<!--<link rel="stylesheet" href="./assets/css/style_v2.css">-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+```<link rel="stylesheet" href="./assets/css/style_v2.css"> - remove comments from here
+    <link rel="stylesheet" href="./assets/css/style.css"> - comment this out
    ```
+
+![Website screenshot](https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website-dark.jpg?raw=true "Horiseon Website dark")
 
 ## Contributing
 
 #### Updating HTML content
-Follow the semantic HTML element layout as defined in the index.html text
-Add main content sections within main element - include a header, paragraph text, image and alt text descriptions for accessibility and SEO
-Add complementary sections within aside element - include a header, paragraph text image and alt text descriptions for accessibility and SEO
+Follow the semantic HTML element layout as defined in the index.html text. <br>
+Add main content sections within main element - include a header, paragraph text, image and alt text descriptions for accessibility and SEO. <br>
+Add complementary sections within aside element - include a header, paragraph text image and alt text descriptions for accessibility and SEO. 
 
 #### Updating CSS
-If changing styles for main or complementary elements replace or add properties within aside or main
-Text styles are grouped together with H1, H2, H3, P
-Links and psuedo selectors are grouped in the links section
-Most CSS styles use semantic classes to limit the need to reference classes within tags
+If changing styles for main or complementary elements replace or add properties within aside or main. <br>
+Text styles are grouped together with H1, H2, H3, P. <br>
+Links and psuedo selectors are grouped in the links section. <br>
+Most CSS styles use semantic classes to limit the need to reference classes within tags.
 
 
 #### Pushing to GitHub
@@ -104,7 +104,7 @@ Most CSS styles use semantic classes to limit the need to reference classes with
 
 Distributed under the MIT License. 
 
-See [LICENSE](https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt)for more information.
+See [LICENSE] (https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt) for more information.
 
 
 
