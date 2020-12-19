@@ -71,6 +71,9 @@ HTML & CSS is structured using semantic HTML where possible. For accessibility a
 #### Dark Mode stylesheet
 If you want to switch to a more accessible dark mode option you can comment out the first style sheet and use the style_v2.css 
 
+```<!--<link rel="stylesheet" href="./assets/css/style_v2.css">-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+   ```
 
 ## Contributing
 
