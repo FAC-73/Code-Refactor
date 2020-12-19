@@ -69,9 +69,13 @@ HTML & CSS is structured using semantic HTML where possible. For accessibility a
 #### Dark Mode stylesheet
 If you want to switch to a more accessible dark mode option you can comment out the first style sheet and use the style_v2.css 
 
-```<link rel="stylesheet" href="./assets/css/style_v2.css"> - remove comments from here
-    <link rel="stylesheet" href="./assets/css/style.css"> - comment this out
-   ```
+1. ```
+<link rel="stylesheet" href="./assets/css/style_v2.css">
+- remove comments from here ```
+
+2.```
+<link rel="stylesheet" href="./assets/css/style.css">
+- comment this out ```
 
 ![Website screenshot](https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website-dark.jpg?raw=true "Horiseon Website dark")
 
