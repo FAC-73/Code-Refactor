@@ -2,30 +2,6 @@
 Horiseon homepage code refactor. Updates to semantic mark-up for SEO and accessibility
 
 
-<br />
-<p align="center">
-  <a href="https://github.com/fac-73/Code-Refactor">
-    <img src="" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Horiseon - Code refactor</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/fac-73/Code-Refactor"><strong></strong></a>
-    <br />
-    <br />
-    <a href="https://fac-73.github.io/Code-Refactor">View Demo</a>
-    ·
-    <a href="https://github.com/fac-73/Code-Refactor/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/fac-73/Code-Refactor/issues">Request Feature</a>
-  </p>
-</p>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -39,7 +15,6 @@ Horiseon homepage code refactor. Updates to semantic mark-up for SEO and accessi
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -47,7 +22,6 @@ Horiseon homepage code refactor. Updates to semantic mark-up for SEO and accessi
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -81,23 +55,45 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/fac-73/code-refactor.git
    ```
 
+2. Pull the latest
+   ```sh
+   git pull
+   ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 HTML is structured semantically and in hierarchical order. 
+CSS selectors reference semantic HTML elements where possible. With imited use of custom classes. 
 
-CSS selectors reference semantic HTML elements where possible. Limited use of custom classes. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
+## Contributing
+
+#### Updating HTML content
+Follow the semantic HTML element layout as defined in the index.html text
+Add main content sections within main element - include a header, paragraph text image and alt text
+Add complementary sections within aside element - include a header, paragraph text image and alt text
+
+#### Updating CSS
+If changing styles for main or complementary elements replace or add properties within aside or main
+Text styles are grouped together with H1, H2, H3, P
+Links and psuedo selectors are grouped in the links section
+Most CSS styles use semantic classes to limit the need to reference classes within tags
+
+#### Pushing to GitHub
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/FeatureName`)
+3. Commit your Changes (`git commit -m 'Add some FeatureName`)
+4. Push to the Branch (`git push origin feature/FeatureName`)
+5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
+Distributed under the MIT License. See `LICENSE`[https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt] for more information.
 
 
 <!-- CONTACT -->
