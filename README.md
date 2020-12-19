@@ -64,23 +64,27 @@ To get a local copy up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-HTML is structured semantically and in hierarchical order. 
-CSS selectors reference semantic HTML elements where possible. With imited use of custom classes. 
+#### Updating HTML content
+HTML & CSS is structured using semantic HTML where possible. For accessibility and SEO requirements headers are ordered in hierarchical order, and layout follows established layout best practices. 
 
+
+#### Dark Mode stylesheet
+If you want to switch to a more accessible dark mode option you can comment out the first style sheet and use the style_v2.css 
 
 
 ## Contributing
 
 #### Updating HTML content
 Follow the semantic HTML element layout as defined in the index.html text
-Add main content sections within main element - include a header, paragraph text image and alt text
-Add complementary sections within aside element - include a header, paragraph text image and alt text
+Add main content sections within main element - include a header, paragraph text, image and alt text descriptions for accessibility and SEO
+Add complementary sections within aside element - include a header, paragraph text image and alt text descriptions for accessibility and SEO
 
 #### Updating CSS
 If changing styles for main or complementary elements replace or add properties within aside or main
 Text styles are grouped together with H1, H2, H3, P
 Links and psuedo selectors are grouped in the links section
 Most CSS styles use semantic classes to limit the need to reference classes within tags
+
 
 #### Pushing to GitHub
 
@@ -90,10 +94,15 @@ Most CSS styles use semantic classes to limit the need to reference classes with
 4. Push to the Branch (`git push origin feature/FeatureName`)
 5. Open a Pull Request
 
+
+
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE`[https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt] for more information.
+Distributed under the MIT License. 
+
+See [LICENSE](https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt)for more information.
+
 
 
 <!-- CONTACT -->
