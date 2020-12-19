@@ -7,8 +7,7 @@ Horiseon homepage code refactor. Updates to improve semantic HTML & CSS elements
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
      <li>
-      <a href="https://fac-73.github.io/Code-Refactor/">View project</a>
-      <ul>
+      <a href="https://fac-73.github.io/Code-Refactor/">View project</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -130,4 +129,5 @@ See [LICENSE](https://github.com/FAC-73/Code-Refactor/blob/main/LICENSE.txt) for
 Kay Davis
 
 Project repo link: [https://github.com/fac-73/code_refactor](https://github.com/fac-73/code_refactor/code_refactor)
+<br>
 Project website: [https://fac-73.github.io/Code-Refactor/](https://fac-73.github.io/Code-Refactor/)
