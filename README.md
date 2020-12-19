@@ -80,6 +80,12 @@ If you want to switch to a more accessible dark mode option you can comment out 
    link rel="stylesheet" href="./assets/css/style.css
    ```
 
+3. Switch out the assets in the aside section for lighter icons. Add '_light' in the file name extension
+   ```
+   "./assets/images/cost-management.png" - Light mode
+   "./assets/images/cost-management_light.png" - Dark mode
+   ```
+
 ![Website screenshot](https://github.com/FAC-73/Code-Refactor/blob/main/assets/images/Horiseon-website-dark.jpg?raw=true "Horiseon Website dark")
 
 ## Contributing
